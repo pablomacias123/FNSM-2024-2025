@@ -1,0 +1,671 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: grey;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around; 
+    }
+    nav ul li {
+        flex-grow: 1; /* Hace que los elementos li se expandan para llenar el espacio disponible */
+      }
+    nav li {
+    float: right;
+    } 
+
+    nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease; /* Agrega una transición suave */
+
+    }
+
+    nav li a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+        url(Imagenes/fondo-luces-degradadas_23-2149304985.avif);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+ 
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.general{
+    display: flex;
+}
+.general-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+}
+.general-2{
+    background-image: url(Imagenes/concier.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-3{
+    background-image: url(Imagenes/JUNIORRRR.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-4{
+    background-image: url(Imagenes/FR.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-5{
+    background-image: url(Imagenes/noda.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-6{
+    background-image: url(Imagenes/nata.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.mas{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(Imagenes/foro.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+}
+.mas h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.mas p{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.general-7{
+    background-image: url(Imagenes/DONND.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-50{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #00fffb4a;
+}
+
+.general-8{
+    background-image: url(Imagenes/BEL.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-9{
+    background-image: url(Imagenes/STINGI.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-10{
+    background-image: url(Imagenes/SECHE.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-11{
+    background-image: url(Imagenes/ENQ.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.tau{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(Imagenes/TAU.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+}
+.tau h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.tau p{
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+.general-51{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #ff00004a;
+}
+
+.general-12{
+    background-image: url(Imagenes/CORRIDAS.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+.general-13{
+    background-image: url(Imagenes/SM.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-14{
+    background-image: url(Imagenes/carnecarajillo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-15{
+    background-image: url(Imagenes/whyjlit.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+footer {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .iconos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconos a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+
+  }
+  .iconos a:hover {
+    transform: translateY(-5px); /* Esto levantará ligeramente el icono cuando pases el cursor sobre él */
+  }
+  .iconos img {
+    width: 30px;
+    height: 30px;
+  }
+  .copyright p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+  .calendario-feria {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+
+.calendario-titulo {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #090909;
+}
+
+.calendario-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.calendario-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+    border: 3px solid black;
+}
+
+.calendario-item img {
+    width: 100%;
+    border-radius: 10px;
+    height: 280px;
+    object-fit: 10px;
+}
+
+.calendario-item h3 {
+    font-size: 1.5em;
+    color: #060606;
+    margin: 15px 0;
+}
+
+.calendario-item p {
+    font-size: 1.1em;
+    color: #030303;
+}
+
+.calendario-item:hover {
+    transform: scale(1.05);
+}
+
+/*Responsive
+
+/* Estilos generales */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: grey;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    flex-grow: 1; /* Hace que los elementos li se expandan para llenar el espacio disponible */
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(Imagenes/fondo-luces-degradadas_23-2149304985.avif);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.general {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.general > div {
+    width: 50%;
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.general-1 {
+    background-color: #e1e2e6;
+}
+
+.general-2,
+.general-3,
+.general-4,
+.general-5,
+.general-6 {
+    background-size: cover;
+}
+
+.mas {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+    url(Imagenes/foro.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.mas h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.mas p {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.general-7,
+.general-8,
+.general-9,
+.general-10,
+.general-11,
+.general-12,
+.general-13,
+.general-14,
+.general-15 {
+    background-size: cover;
+}
+
+footer {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.iconos a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.iconos a:hover {
+    transform: translateY(-5px);
+}
+
+.iconos img {
+    width: 30px;
+    height: 30px;
+}
+
+.copyright p {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calendario-feria {
+    text-align: center;
+    padding: 50px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+}
+
+.calendario-titulo {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #090909;
+}
+
+.calendario-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.calendario-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+    border: 3px solid black;
+}
+
+.calendario-item img {
+    width: 100%;
+    border-radius: 10px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.calendario-item h3 {
+    font-size: 1.5em;
+    color: #060606;
+    margin: 15px 0;
+}
+
+.calendario-item p {
+    font-size: 1.1em;
+    color: #030303;
+}
+
+.calendario-item:hover {
+    transform: scale(1.05);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .general > div {
+        width: 100%;
+        padding: 50px;
+    }
+
+    .header-content h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .header-content p {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    .mas h1 {
+        font-size: 50px;
+    }
+
+    .mas p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    .general-1, .general-2, .general-3, .general-4, .general-5, .general-6 {
+        width: 100%;
+        padding: 20px;
+        background-size: cover;
+    }
+
+    .calendario-item {
+        width: 100%;
+    }
+
+    .iconos a {
+        margin: 0 5px;
+    }
+
+    .calendario-feria {
+        padding: 30px;
+    }
+
+    .calendario-titulo {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-content h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .header-content p {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .general > div {
+        padding: 15px;
+    }
+
+    .mas h1 {
+        font-size: 40px;
+    }
+
+    .mas p {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .general-1, .general-2, .general-3, .general-4, .general-5, .general-6 {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .calendario-item {
+        width: 100%;
+    }
+
+    .iconos a {
+        margin: 0 3px;
+    }
+}

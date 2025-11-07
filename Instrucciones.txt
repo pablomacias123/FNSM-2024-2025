@@ -1,0 +1,1 @@
+Para lograr correr este sitio web es necesario descomponer los archivos .zip y crear los modulos correspondientes de vsc. y modulos correspondientes. 

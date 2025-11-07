@@ -1,0 +1,728 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+ 
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ 
+   
+.header {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+    ),
+        url(Imagenes/fnsm2.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    }
+
+    nav li {
+    float: right;
+    } 
+
+    nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease; /* Agrega una transición suave */
+
+    }
+
+    nav li a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+ 
+#menu {
+    display: none;
+}
+.menu-icono {
+    width: 25px;
+}
+ 
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+ 
+.header-content {
+    text-align: center;
+ 
+}
+ 
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+.header-content p{
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+ 
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ff0000;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.btn-1:hover{
+    background-color: #ff0000;
+    color: white;
+}
+ 
+.restaurantes{
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+}
+ 
+.restaurantes-content{
+    text-align: center;
+}
+.restaurantes-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+ 
+.txt-p{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0 250px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+ 
+.restaurantes{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(Imagenes/AnyConv.com__image-4-1536x1134.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+}
+.restaurantes-content{
+    text-align: center;
+}
+.restaurantes-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.restaurantes-content p{
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+ 
+}
+.restaurantes-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.restaurantes-1{
+    padding:0 100px;
+}
+.restaurantes-1 img {
+    width: 200px;
+    margin-bottom: 15px;
+}
+ 
+.restaurantes-1 h3{
+    color: #EACCB3;
+    font-size: 18px;
+}
+ 
+.services {
+    background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(Imagenes/AnyConv.com__image-4-1536x1134.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+}
+ 
+.services-content{
+    text-align: center;
+}
+.services-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+ 
+}
+.services-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+ 
+}
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.services-1 {
+    padding:0 100px;
+ 
+}
+.services-1 img{
+    width: 100px;
+    margin-bottom: 15px;
+}
+ 
+.services-1 h3{
+    color: #EACCB3;
+    font-size: 18px;
+}
+ 
+.antros{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(Imagenes/Antro.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+}
+.antros-content{
+    text-align: center;
+}
+.antros-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.antros-content p{
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+ 
+}
+.antros-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.antros-1{
+    padding:0 100px;
+}
+.antros-1 img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+ 
+.antros-1 h3{
+    color: #EACCB3;
+    font-size: 18px;
+}
+ 
+.palenque{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(Imagenes/palenque.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+}
+.palenque-content{
+    text-align: center;
+}
+.palenque-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.palenque-content p{
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+ 
+}
+.palenque-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.palenque-1{
+    padding:0 100px;
+}
+.palenque-1 img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+ 
+.palenque-1 h3{
+    color: #EACCB3;
+    font-size: 18px;
+}
+.foro{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(Imagenes/foro.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0 ;
+}
+.foro-content{
+    text-align: center;
+}
+.foro-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.foro-content p{
+    font-size: 16px;
+    color: #C5C5C5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+ 
+}
+.foro-group{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.foro-1{
+    padding:0 100px;
+}
+.foro-1 img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+ 
+.foro-1 h3{
+    color: #EACCB3;
+    font-size: 18px;
+}
+ 
+h2{
+ font-size: 55px;
+ line-height: 70px;
+ color:#323337;
+ text-transform: uppercase;
+ margin-bottom: 20px;
+}
+p{
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 45px 0;
+ 
+}
+ 
+
+@media screen and (max-width: 768px) {
+    .header-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+ 
+    .header-content p {
+        padding: 0 10px;
+    }
+ 
+    .container {
+        padding: 0 10px;
+    }
+}
+footer {
+    background-color: white;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .iconos {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconos a {
+    margin: 0 10px;
+  }
+  .iconos img {
+    width: 30px;
+    height: 30px;
+  }
+  .copyright p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .header-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .header-content p {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        background-color: #333;
+    }
+
+    .menu-icono {
+        display: block;
+        width: 25px;
+    }
+
+    .restaurantes-content h2,
+    .services-content h2,
+    .antros-content h2,
+    .palenque-content h2,
+    .foro-content h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding: 0 20px;
+    }
+
+    .restaurantes-content p,
+    .services-content p,
+    .antros-content p,
+    .palenque-content p,
+    .foro-content p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    .restaurantes-group,
+    .services-group,
+    .antros-group,
+    .palenque-group,
+    .foro-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .restaurantes-1,
+    .services-1,
+    .antros-1,
+    .palenque-1,
+    .foro-1 {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .restaurantes-1 img,
+    .services-1 img,
+    .antros-1 img,
+    .palenque-1 img,
+    .foro-1 img {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .btn-1 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .iconos img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+
+/*Responsive /*
+/* Diseño base */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Imagenes/fnsm2.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #333;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#menu {
+    display: none;
+}
+
+/* Estilos de elementos */
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #F9FAFC;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 16px;
+    color: #C5C5C5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ff0000;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Ajustes Responsivos */
+@media screen and (max-width: 768px) {
+    .header-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .header-content p {
+        padding: 0 10px;
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        background-color: #333;
+    }
+
+    .menu-icono {
+        display: block;
+        width: 25px;
+    }
+
+    /* Ajustes para las secciones */
+    .restaurantes-content h2,
+    .services-content h2,
+    .antros-content h2,
+    .palenque-content h2,
+    .foro-content h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding: 0 20px;
+    }
+
+    .restaurantes-content p,
+    .services-content p,
+    .antros-content p,
+    .palenque-content p,
+    .foro-content p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    .restaurantes-group,
+    .services-group,
+    .antros-group,
+    .palenque-group,
+    .foro-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .restaurantes-1,
+    .services-1,
+    .antros-1,
+    .palenque-1,
+    .foro-1 {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .restaurantes-1 img,
+    .services-1 img,
+    .antros-1 img,
+    .palenque-1 img,
+    .foro-1 img {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    .btn-1 {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .iconos img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* Ajustes para móviles más pequeños */
+@media screen and (max-width: 480px) {
+    .header-content h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .header-content p {
+        font-size: 12px;
+    }
+
+    .btn-1 {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+
+    .iconos img {
+        width: 20px;
+        height: 20px;
+    }
+
+    nav ul {
+        padding: 10px;
+    }
+}
